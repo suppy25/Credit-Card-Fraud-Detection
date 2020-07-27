@@ -6,7 +6,7 @@ The aim of this R project is to build a classifier that can detect credit card f
 
 The dataset used in this project is available here – Fraud Detection Dataset
 
-1. Importing the Datasets
+# 1. Importing the Datasets
 
 We are importing the datasets that contain transactions made by credit cards-
 
@@ -22,7 +22,7 @@ Importing Libraries
 
 Before moving on, you must revise the concepts of R Dataframes
 
-2. Data Exploration
+# 2. Data Exploration
 
 In this section of the fraud detection ML project, we will explore the data that is contained in the creditcard_data dataframe. We will proceed by displaying the creditcard_data using the head() function as well as the tail() function. We will then proceed to explore the other components of this dataframe –
 
@@ -64,7 +64,7 @@ data exploration
 
 Learn everything about R for FREE and master the technology
 
-3. Data Manipulation
+# 3. Data Manipulation
 
 In this section of the R data science project, we will scale our data using the scale() function. We will apply this to the amount component of our creditcard_data amount. Scaling is also known as feature standardization. With the help of scaling, the data is structured according to a specified range. Therefore, there are no extreme values in our dataset that might interfere with the functioning of our model. We will carry this out as follows:
 
@@ -84,7 +84,7 @@ Output Screenshot:
 
 credit card fraud detection
 
-4. Data Modeling
+# 4. Data Modeling
 
 After we have standardized our entire dataset, we will split our dataset into training set as well as test set with a split ratio of 0.80. This means that 80% of our data will be attributed to the train_data whereas 20% will be attributed to the test data. We will then find the dimensions using the dim() function –
 
@@ -102,7 +102,7 @@ Output Screenshot:
 
 credit card fraud detection
 
-5. Fitting Logistic Regression Model
+# 5. Fitting Logistic Regression Model
 
 In this section of credit card fraud detection project, we will fit our first model. We will begin with logistic regression. A logistic regression is used for modeling the outcome probability of a class such as pass/fail, positive/negative and in our case – fraud/not fraud. We proceed to implement this model on our test data as follows –
 
@@ -165,7 +165,7 @@ Output:
 
 fraud detection - R project
 
-6. Fitting a Decision Tree Model
+# 6. Fitting a Decision Tree Model
 
 In this section, we will implement a decision tree algorithm. Decision Trees to plot the outcomes of a decision. These outcomes are basically a consequence through which we can conclude as to what class the object belongs to. We will now implement our decision tree model and will plot it using the rpart.plot() function. We will specifically use the recursive parting to plot the decision tree.
 
@@ -190,7 +190,7 @@ machine learning project - decision tree
 
  
 
-7. Artificial Neural Network
+# 7. Artificial Neural Network
 
 Artificial Neural Networks are a type of machine learning algorithm that are modeled after the human nervous system. The ANN models are able to learn the patterns using the historical data and are able to perform classification on the input data. We import the neuralnet package that would allow us to implement our ANNs. Then we proceeded to plot it using the plot() function. Now, in the case of Artificial Neural Networks, there is a range of values that is between 1 and 0. We set a threshold as 0.5, that is, values above 0.5 will correspond to 1 and the rest will be 0. We implement this as follows – 
 
@@ -210,7 +210,7 @@ Output:
 
 Artificial Neural network in R
 
-8. Gradient Boosting (GBM)
+# 8. Gradient Boosting (GBM)
 
 Gradient Boosting is a popular machine learning algorithm that is used to perform classification and regression tasks. This model comprises of several underlying ensemble models like weak decision trees. These decision trees combine together to form a strong model of gradient boosting. We will implement gradient descent algorithm in our model as follows –
 
@@ -276,6 +276,6 @@ Output Screenshot:
 
 Credit card fraud detection
 
-Summary
+# Summary
 
 Concluding our R Data Science project, we learnt how to develop our credit card fraud detection model using machine learning. We used a variety of ML algorithms to implement this model and also plotted the respective performance curves for the models. We learnt how data can be analyzed and visualized to discern fraudulent transactions from other types of data.
